@@ -10,7 +10,7 @@ function Opinions() {
                 Should I wait for a better market?
                </p>
                <p className='text-sm text-gray-600'>
-                  If you are buying a home,focus on who worksfor your budget and lifestyleright now instead of waiting for perfect market.There are program...
+                  If you are buying a home,focus on who worksfor your budget and lifestyle right now instead of waiting for perfect market.There are program...
                </p>
                <div  className='flex flex-row space-x-4'>
                   <img className='rounded-full w-10 h-10' src="https://cdn.builder.io/api/v1/image/assets%2Fea37b90b89334a2ab1714e2159c75418%2Fe94ec6ef07b742ce9fcd987420e494e7" alt="" />
