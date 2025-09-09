@@ -1,0 +1,39 @@
+/* HistoricalRates.css */
+
+.historical-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.historical-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-block label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.filter-block select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 220px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.filter-block select:focus {
+  outline: none;
+  border-color: #4f46e5; /* nice blue */
+  box-shadow: 0 0 3px rgba(79, 70, 229, 0.5);
+}

@@ -1,0 +1,147 @@
+.payment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0fdf4;
+  padding: 1.5rem;
+}
+
+.payment-card {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.payment-grid {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-bar {
+  border-radius: 9999px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.bar-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+/* Colors */
+.bar-section.green { background: #047857; }
+.bar-section.indigo { background: #4f46e5; }
+.bar-section.blue { background: #60a5fa; }
+.bar-section.yellow { background: #facc15; color: black; }
+.bar-section.red { background: #f87171; }
+
+.hover-card {
+  margin-top: 1.5rem;
+  width: 100%;
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.hover-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.hover-card p {
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+.breakdown-title {
+  margin-bottom: 1rem; /* Changed from margin-top */
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.total {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.color-dot.green { background: #047857; }
+.color-dot.indigo { background: #4f46e5; }
+.color-dot.blue { background: #60a5fa; }
+.color-dot.yellow { background: #facc15; }
+.color-dot.red { background: #f87171; }
+
+.input-box {
+  width: 100px;
+  padding: 4px 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.value {
+  font-weight: 500;
+}
+
+.copy-btn {
+  margin-top: 1.5rem;
+  width: 100%;
+  background: #e5e7eb;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.copy-btn:hover {
+  background: #d1d5db;
+}

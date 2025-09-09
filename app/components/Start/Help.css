@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #fefcf9;
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.help-container {
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.help-container h1 {
+  font-size: 1.5rem;
+  color: #1f1f1f;
+  margin-bottom: 10px;
+  line-height: 0.9;
+}
+
+.help-container h1 + h1 {
+  margin-top: 5px; 
+  margin-bottom: 30px; 
+}
+
+.help-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  padding: 15px;
+  margin: 15px auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  color: #222;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.help-container button:hover {
+  border-color: #017848;
+  scroll-behavior: smooth;
+  border-width: 4px;
+  box-shadow: 0 0 6px rgba(0, 128, 0, 0.4);
+}
+
+.help-container button:focus {
+  outline: none;
+  border-color: #017848;
+  box-shadow: 0 0 8px rgba(0, 128, 0, 0.6);
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+  margin: 40px 0 20px 0;
+}
+
+.stats-container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.stats-container p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.unlock-section {
+  background-color: #f1f8f4;
+  border-radius: 10px;
+  padding: 25px;
+  width: 450px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.unlock-section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+.unlock-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.unlock-section li {
+  font-size: 1rem;
+  margin: 15px 0;
+  color: #333;
+  padding-left: 10px;
+  position: relative;
+}
+
+.unlock-section li::before {
+  content: "•";
+  color: #008000; 
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
