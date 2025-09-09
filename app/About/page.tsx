@@ -17,7 +17,7 @@ function page() {
   <Hero/>
   <Changes/>
   <Backed/>
-  <Timeline/>
+  {/* <Timeline/> */}
   <Posts/>
   <Bottom/>
   <Footer/>
