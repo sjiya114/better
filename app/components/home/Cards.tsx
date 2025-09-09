@@ -55,7 +55,7 @@ function Cards() {
        <div className='flex flex-row justify-between '>
         <h1 className='text-black font-bold text-4xl'>Got questions?
 We have got answers</h1>
-     <div className="flex flex-row space-x-4">
+     <div className="flex flex-row max-md:flex-col max-md:space-y-4 space-x-4">
            <button  onClick={()=>{setData(Products)}}  className="border-[1px] border-gray-400 hover:border-4 hover:border-[#004733] hover:text-[#004733]  rounded-2xl px-4 py-2">Our products</button>
         <button  onClick={()=>{setData(Calculators)}} className="border-[1px] border-gray-400 hover:border-4 hover:border-[#004733] hover:text-[#004733]  rounded-2xl px-4 py-2">Calculators</button>
         <button onClick={()=>{setData(Guides)}} className="border-[1px] border-gray-400 hover:border-4 hover:border-[#004733] hover:text-[#004733]  rounded-2xl px-4 py-2">Guides and FAQs</button>
