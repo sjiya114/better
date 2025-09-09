@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react";
 function FAQS() {
-      const [openIndex, setOpenIndex] = useState(null);
+      const [openIndex, setOpenIndex] = useState<number | null>(null);
        const faqs = [
     {
         "question": "How do I calculate my mortgage payment?",
