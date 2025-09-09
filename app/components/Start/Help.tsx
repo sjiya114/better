@@ -5,7 +5,7 @@ function Help() {
     <>
     
     <div className="help-container">
-      <h1>Hi, I'm Betsy!</h1>
+      <h1>Hi, Im Betsy!</h1>
       <h1>What can I help you with?</h1>
 
       <button>Buying a home</button>
@@ -26,7 +26,7 @@ function Help() {
    </div>
 
     <div className="unlock-section">
-      <p>After a few qustions, you'll unlock:</p>
+      <p>After a few qustions, youll unlock:</p>
       <ul>
         <li>Custom mortgage rates</li>
         <li>Exclusive offers</li>

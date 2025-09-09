@@ -35,8 +35,8 @@ function Card() {
     ]
   return (
     <>
-    {data.map((d)=>(
-        <div className='flex flex-col justify-around px-4 py-2 w-[240px] max-sm:h-fit  max-md:w-full h-[240px] max-md:py-6  max-md:h-[200px]  border-2 border-[#C7C9C5] rounded-2xl'>
+    {data.map((d,index)=>(
+        <div key={index} className='flex flex-col justify-around px-4 py-2 w-[240px] max-sm:h-fit  max-md:w-full h-[240px] max-md:py-6  max-md:h-[200px]  border-2 border-[#C7C9C5] rounded-2xl'>
       <h1 className='font-semibold text-[#565D5A]'>{d.name}</h1>
       <p className='text-[#8C938F]'>{d.description}</p>
        <div className='flex flex-row space-x-2'>
